@@ -11,3 +11,11 @@ The microlensing method is dependent on Einstein’s General Theory of Relativit
 
 The third method, and the one this project will use, is called the transit method. This one is much simpler than the previous two and does not involve complicated physics. This takes advantages of the shadows cast on the host star from the smaller body. Every time a planet passes in front of a star, it causes a small dip in the apparent magnitude of the star. The amount of starlight blocked, and for how long it is blocked, is dependent on the size of the planet and its orbital period. If the star’s light is blocked at regular intervals, it is likely that it is being orbited by a planet. However, such blocking can also occur if it is being orbited by a smaller star (as is the case in a binary system), by asteroids and other bodies, as well as by gas clouds.
 
+### Dataset
+The dataset is pulled from NASA’s exoplanet archives. Specifically, it is coming from the Kepler Space Telescope, and contains 17 features, with 9,564 samples. This data was gathered over the course of 9.5 years from March 7, 2009 to October 30th, 2018, when Kepler was retired. It can be found here: https://exoplanetarchive.ipac.caltech.edu/index.html
+
+### Algorithm
+The algorithm in question will be the machine learning algorithm: Support Vector Machines (SVM). Since this is a binary classification task with data that is already labeled, using a supervised learning algorithm like SVM is appropriate. In addition, given the chance of data overlap, this was another reason to select it. SVM is a relatively flexible algorithm that can handle outliers and still provide a significant degree of accuracy. This is due to the use of Kernel Functions which elevate data to higher dimensions to more suitably classify them.
+
+### Evaluation
+Since this is a supervised learning project, evaluation will be relatively simple. The planets are already labeled into “CONFIRMED” and “FALSE POSITIVE”. Therefore, I will evaluate the strength of the machine learning algorithm using the confusion matrix, and will see how high the F1 score is. I will also look at the individual combination of recall and precision.
