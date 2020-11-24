@@ -1,6 +1,6 @@
 # Planet-Hunter
 
-##Description
+## Description
 This project will involve the use of a machine learning to detect the existence of planets around other star systems. The hunt for extrasolar planets, or exoplanets, is a relatively new field of Astronomy. The first such planet was discovered in 1992. Since then, as of November 1st, 2020, over 4,300 exoplanets have been confirmed in over 3,200-star systems, with a little over 25% of those star systems being multi-planetary systems.
 
 Detecting extrasolar planets is a difficult feat. These are objects that are quite literally outshone by their host star, and are relatively small in terms of size and mass. Thus, multiple methods have been developed to detect them. Three such examples are the radial velocity method, the microlensing method, and the transit method.
