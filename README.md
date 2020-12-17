@@ -16,6 +16,3 @@ The dataset is pulled from NASA’s exoplanet archives. Specifically, it is comi
 
 ### Algorithm
 The algorithm in question will be the machine learning algorithm: Support Vector Machines (SVM). Since this is a binary classification task with data that is already labeled, so using a supervised learning algorithm like SVM is appropriate. In addition, given the chance of data overlap, this was another reason to select it. SVM is a relatively flexible algorithm that can handle outliers and still provide a significant degree of accuracy. This is due to the use of Kernel Functions which elevate data to higher dimensions to more suitably classify them. The second algorithm that will be used is K-Means Clustering. This algorithm will be used to cluster stars that are confirmed to have exoplanets, to see how many different types of stars exist in the dataset.
-
-### Evaluation
-Since this is a supervised learning project, evaluation will be relatively simple. The planets are already labeled into “CONFIRMED” and “FALSE POSITIVE”. Therefore, I will evaluate the strength of the machine learning algorithm using the confusion matrix, and will see how high the F1 score is. I will also look at the individual combination of recall and precision.
